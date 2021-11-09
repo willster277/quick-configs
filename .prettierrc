@@ -17,9 +17,9 @@
   "trailingComma": "all",
   "tabWidth": 2,
   "useTabs": false,
-  "svelteAllowShorthand": false,
+  "svelteAllowShorthand": true,
   "svelteBracketNewLine": true,
   "svelteIndentScriptAndStyle": true,
-  "svelteStrictMode": true,
+  "svelteStrictMode": false,
   "svelteSortOrder": "options-scripts-markup-styles"
 }
