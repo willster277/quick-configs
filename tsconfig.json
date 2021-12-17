@@ -1,31 +1,36 @@
 {
-	"compilerOptions": {
-		"alwaysStrict": true,
-		"allowJs": true,
-		"allowSyntheticDefaultImports": true,
-		"baseUrl": ".",
-		"declaration": true,
-		"checkJs": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"importsNotUsedAsValues": "error",
-		"isolatedModules": true,
-		"lib": ["ESNext", "DOM"],
-		"moduleResolution": "node",
-		"module": "ESNext",
-		"noImplicitAny": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"pretty": true,
-		"paths": {
-			"$lib": ["src/lib"],
-			"$lib/*": ["src/lib/*"]
-		},
-		"removeComments": false,
-		"resolveJsonModule": true,
-		"sourceMap": true,
-		"skipLibCheck": true,
-		"target": "ES2017"
-	},
-	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte","src/**/*.svx"]
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "generateCpuProfile": "profile.cpuprofile",
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "paths": {
+      "$lib": ["src/lib"],
+      "$lib/*": ["src/lib/*"],
+      "@wvelte/wvelte": ["src/lib/index.ts"],
+      "@wvelte/wvelte/*": ["src/lib/*"]
+    },
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "target": "ES2017"
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte", "src/**/*.svx"]
 }
