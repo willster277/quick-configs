@@ -20,9 +20,7 @@
     "pretty": true,
     "paths": {
       "$lib": ["src/lib"],
-      "$lib/*": ["src/lib/*"],
-      "@wvelte/wvelte": ["src/lib/index.ts"],
-      "@wvelte/wvelte/*": ["src/lib/*"]
+      "$lib/*": ["src/lib/*"]
     },
     "removeComments": false,
     "resolveJsonModule": true,
